@@ -12,7 +12,7 @@ public class PracticeProblem {
 		solveHanoi(n, 'L', 'R', 'M', moves);
 		return moves.toArray(new String[0]);
 	}
-	private static void solveHanoi(int n, char from, char to, char aux, List<String> moves) {
+	public static void solveHanoi(int n, char from, char to, char aux, List<String> moves) {
 		if (n == 1) {
 			moves.add("" + from + to);
 			return;
