@@ -79,9 +79,6 @@ public class PracticeProblemTest {
             String[] result = (String[])method.invoke(null, 4);
             assertArrayEquals(new String[]{"LM", "LR", "MR", "LM", "RL", "RM", "LM", 
                                           "LR", "MR", "ML", "RL", "MR", "LM", "LR", "MR"}, result);
-            L = M
-            R = L
-            M = R
         } catch (NoSuchMethodException e) {
             fail("Method does not exist");
         } catch(Exception e) {
